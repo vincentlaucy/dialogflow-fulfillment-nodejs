@@ -8,9 +8,6 @@
   "directories": {
     "test": "test"
   },
-  "engines": {
-    "node": "~8.0"
-  },
   "scripts": {
     "test": "npm run lint && ava",
     "lint": "eslint --fix \"src/**/*.js\" \"test/*.js\" \"docs/*.js\"",
